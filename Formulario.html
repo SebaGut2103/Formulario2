@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de prueba de HTML5.</title>
+</head>
+<body>
+    <h1>Formulario de prueba de HTML5.</h1>
+    <hr>
+    <form action="" method="get">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" autofocus pattern="[A-Za-z]{3,12}" title="Debe contener de 3
+        a 12 caracteres alfabeticos" placeholder="Ingrese nombre">
+        <br><br>
+        <label for="email">Correo electrónico</label>
+        <input type="email" name="email" id="email" placeholder="Ingrese correo electrónico">
+        <br><br>
+        <label for="url">URL</label>
+        <input type="url" name="url" id="url" placeholder="Escribe la URL de tu página web personal".>
+        <br><br>
+        <label for="fecha">Fecha</label>
+        <input type="date" name="fecha" id="fecha">
+        <br><br>
+        <label for="time">Tiempo</label>
+        <input type="time" name="time" id="time" >
+        <br><br>
+        <label for="timedate">Fecha - Hora</label>
+        <input type="date" name="timedate" id="timedate"> 
+        <input type="time" name="timedate" id="timedate">
+        <br><br>
+        <label for="mes">Mes</label>
+        <input type="month" name="mes" id="mes">
+        <br><br>
+        <label for="week">Semanas</label>
+        <input type="week" name="week" id="week">
+        <br><br>
+        <label for="num">Número (min-10, max10):</label>
+        <input type="number" name="num" id="num" min="-10" max="10">
+        <br><br>
+        <label for="tel">Teléfono</label>
+        <input type="tel" name="tel" id="tel">
+        <br><br>
+        <label for="search">Término de busqueda</label>
+        <input type="search" name="search" id="search">
+        <br><br>
+        <label for="color">Color</label>
+        <input type="color" name="color" id="color">
+        <br><br>
+        <label for="enviar"></label>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
