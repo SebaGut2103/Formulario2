@@ -1,0 +1,42 @@
+body{
+    background-image: url('/img/alucard.jpg');
+}
+h1{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 225%;
+    text-align: center;
+    color:darkturquoise;
+}
+.head{
+    text-align: center;
+}
+.nombre{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-family: 225%;
+    color:darkturquoise;
+}
+.mail{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-family: 225%;
+    color:darkturquoise;
+}
+.url{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-family: 225%;
+    color:darkturquoise;
+}
+.body{
+    text-align: center;
+}
+
+section{
+    border: 2px solid white;
+    margin: auto;
+    width: 800px;
+    bottom: 95svh;
+    height: 800px;
+}
